@@ -1,8 +1,8 @@
 server {
   listen 80;
-  server_name localtunnel.chatie.io *.localtunnel.chatie.io;
+  server_name localtunnel.wjmcat.cn *.localtunnel.wjmcat.cn;
 
   location / {
-    proxy_pass http://localtunnel.chatie.io:3000;
+    proxy_pass http://localtunnel.wjmcat.cn:3000;
   }
 }

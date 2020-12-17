@@ -3,6 +3,6 @@ server {
   server_name python-wechaty.wjmcat.cn;
 
   location / {
-    proxy_pass wj-Mcat.github.com/python-wechaty-doc;
+    proxy_pass http://wj-Mcat.github.com/python-wechaty-doc;
   }
 }
